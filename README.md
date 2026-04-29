@@ -6,6 +6,7 @@
   <a href="https://github.com/georgepwall1991/ConfigContraband"><img alt="ConfigContraband" src="https://img.shields.io/badge/ConfigContraband-configuration%20safety-22c55e?style=for-the-badge"></a>
   <a href="https://github.com/georgepwall1991/LinqContraband"><img alt="LinqContraband" src="https://img.shields.io/badge/LinqContraband-query%20safety-38bdf8?style=for-the-badge"></a>
   <a href="https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers"><img alt="DI analyzers" src="https://img.shields.io/badge/DI%20Analyzers-lifetime%20safety-f59e0b?style=for-the-badge"></a>
+  <a href="https://github.com/georgepwall1991/AOEOverlay"><img alt="AOEOverlay" src="https://img.shields.io/badge/AOEOverlay-Tauri%20desktop-8b5cf6?style=for-the-badge"></a>
 </p>
 
 ## Signal
@@ -24,6 +25,7 @@ The thread running through my work is simple: make the failure visible while the
 | [CancelCop.Analyzer](https://github.com/georgepwall1991/CancelCop.Analyzer) | CancellationToken discipline | Keeps cancellation flowing through public APIs, handlers, EF Core, HTTP calls, and Minimal APIs. |
 | [automapper-analyser](https://github.com/georgepwall1991/automapper-analyser) | Mapping safety | Moves AutoMapper configuration failures from runtime surprises into compile-time feedback. |
 | [CPMigrate](https://github.com/georgepwall1991/CPMigrate) | Package management | Helps .NET solutions move to Central Package Management with dependency health checks and rollback. |
+| [AOEOverlay](https://github.com/georgepwall1991/AOEOverlay) | Tauri desktop overlay | A TypeScript/React/Tauri app that shows I also build polished local desktop tooling, not just compiler analyzers. |
 
 ## Toolbox
 
@@ -35,6 +37,7 @@ The thread running through my work is simple: make the failure visible while the
   <img alt="EF Core" src="https://img.shields.io/badge/EF%20Core-0f766e?style=flat-square&logo=dotnet&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white">
+  <img alt="Tauri" src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white">
   <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white">
   <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">

@@ -2,7 +2,7 @@
 
 I build production-safety tooling for .NET teams: analyzers, developer workflows, and small sharp utilities that catch expensive mistakes before they ship.
 
-Most of my open-source work sits around Roslyn analyzers, configuration safety, dependency injection correctness, EF Core performance, and runtime behavior that should be obvious before production.
+Most of my open-source work sits around Roslyn analyzers, configuration safety, dependency injection correctness, EF Core performance, and runtime behavior that should be visible before production.
 
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Roslyn](https://img.shields.io/badge/Roslyn-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)](https://github.com/dotnet/roslyn)

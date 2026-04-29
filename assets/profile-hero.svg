@@ -1,0 +1,105 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">George Wall profile banner</title>
+  <desc id="desc">A dark technical banner for .NET analyzer and production safety tooling work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071014"/>
+      <stop offset="0.48" stop-color="#0d141c"/>
+      <stop offset="1" stop-color="#10151f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="96" x2="1120" y2="418" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ADE80"/>
+      <stop offset="0.46" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="720" y1="90" x2="1140" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#141B25"/>
+      <stop offset="1" stop-color="#0B1017"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#263240" stroke-opacity="0.34" stroke-width="1"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="520" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="520" rx="34" fill="url(#grid)" opacity="0.56"/>
+  <path d="M66 410C227 329 327 365 489 268C664 163 775 159 1001 108C1102 85 1182 70 1234 45" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.42"/>
+  <path d="M76 132H572" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M76 388H522" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.8"/>
+
+  <g transform="translate(76 88)">
+    <rect x="0" y="0" width="204" height="34" rx="17" fill="#12201B" stroke="#2DD17F" stroke-opacity="0.34"/>
+    <circle cx="20" cy="17" r="5" fill="#4ADE80" filter="url(#glow)"/>
+    <text x="34" y="22" fill="#B7F7CD" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">PRODUCTION SAFETY</text>
+
+    <text x="0" y="112" fill="#F8FAFC" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="70" font-weight="800">George Wall</text>
+    <text x="2" y="156" fill="#A8B3C2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">Roslyn analyzers, developer tooling, and systems that catch</text>
+    <text x="2" y="188" fill="#A8B3C2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">expensive .NET mistakes before they reach production.</text>
+
+    <g transform="translate(0 236)">
+      <rect x="0" y="0" width="84" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="24" y="24" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">.NET</text>
+      <rect x="96" y="0" width="108" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="124" y="24" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">Roslyn</text>
+      <rect x="216" y="0" width="84" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="241" y="24" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">C#</text>
+      <rect x="312" y="0" width="96" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="338" y="24" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">Swift</text>
+      <rect x="420" y="0" width="88" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="446" y="24" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">Rust</text>
+      <rect x="0" y="48" width="128" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="24" y="72" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">TypeScript</text>
+      <rect x="140" y="48" width="96" height="36" rx="18" fill="#151E29" stroke="#344256"/>
+      <text x="166" y="72" fill="#DDE6F2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">React</text>
+    </g>
+  </g>
+
+  <g transform="translate(724 86)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="484" height="348" rx="22" fill="url(#panel)" stroke="#344256"/>
+    <rect x="0" y="0" width="484" height="48" rx="22" fill="#111923"/>
+    <path d="M0 48H484" stroke="#344256"/>
+    <circle cx="28" cy="24" r="6" fill="#F87171"/>
+    <circle cx="50" cy="24" r="6" fill="#FBBF24"/>
+    <circle cx="72" cy="24" r="6" fill="#4ADE80"/>
+    <text x="98" y="30" fill="#97A6BA" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13">analyzer-pipeline</text>
+
+    <g transform="translate(30 82)">
+      <rect x="0" y="0" width="190" height="50" rx="12" fill="#0E1721" stroke="#2E3B4C"/>
+      <text x="18" y="22" fill="#9BE7B6" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13">source code</text>
+      <text x="18" y="38" fill="#65748A" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12">services, options, queries</text>
+
+      <path d="M212 25H252" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+      <path d="M246 18L253 25L246 32" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <rect x="274" y="0" width="150" height="50" rx="12" fill="#0E1721" stroke="#2E3B4C"/>
+      <text x="292" y="22" fill="#9BE7B6" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13">diagnostics</text>
+      <text x="292" y="38" fill="#65748A" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12">high signal only</text>
+    </g>
+
+    <g transform="translate(30 162)">
+      <rect x="0" y="0" width="424" height="96" rx="14" fill="#0B121B" stroke="#2E3B4C"/>
+      <text x="20" y="28" fill="#DDE6F2" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14">$ dotnet build --configuration Release</text>
+      <text x="20" y="56" fill="#4ADE80" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14">CFG001 duplicate section blocked</text>
+      <text x="20" y="78" fill="#22D3EE" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14">LC006 query shape reviewed</text>
+    </g>
+
+    <g transform="translate(30 286)">
+      <rect x="0" y="0" width="128" height="34" rx="17" fill="#14241C" stroke="#2DD17F" stroke-opacity="0.5"/>
+      <text x="18" y="23" fill="#B7F7CD" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700">compile-time</text>
+      <rect x="144" y="0" width="118" height="34" rx="17" fill="#102432" stroke="#22D3EE" stroke-opacity="0.45"/>
+      <text x="166" y="23" fill="#B8F3FF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700">low-noise</text>
+      <rect x="278" y="0" width="146" height="34" rx="17" fill="#2A2111" stroke="#FBBF24" stroke-opacity="0.44"/>
+      <text x="300" y="23" fill="#FFE2A3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700">release-grade</text>
+    </g>
+  </g>
+</svg>

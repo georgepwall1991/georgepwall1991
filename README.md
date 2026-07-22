@@ -18,15 +18,27 @@ The thread running through my work is simple: make the failure visible while the
 
 ## Featured Systems
 
+### Analyzers and Safety Tooling
+
 | Project | Focus | Why it matters |
 | --- | --- | --- |
+| [automapper-analyser](https://github.com/georgepwall1991/automapper-analyser) | Mapping safety | Moves AutoMapper configuration failures from runtime surprises into compile-time feedback. |
+| [CancelCop.Analyzer](https://github.com/georgepwall1991/CancelCop.Analyzer) | CancellationToken discipline | Keeps cancellation flowing through public APIs, handlers, EF Core, HTTP calls, and Minimal APIs. |
 | [ConfigContraband](https://github.com/georgepwall1991/ConfigContraband) | Configuration correctness | Catches broken `appsettings`, missing sections, duplicate JSON members, and option-shape drift before runtime. |
+| [DependencyInjection.Lifetime.Analyzers](https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers) | Dependency injection lifetimes | Detects captive dependencies, unsafe scopes, and lifetime mismatches that usually fail late. |
 | [HttpClient.Resilience.Analyzers](https://github.com/georgepwall1991/HttpClient.Resilience.Analyzers) | Outbound HTTP resilience | Flags unsafe `HttpClient` usage and resilience gaps before transient failures become production incidents. |
 | [LinqContraband](https://github.com/georgepwall1991/LinqContraband) | EF Core and LINQ safety | Flags query shapes that cause client-side evaluation, N+1s, cartesian explosions, and costly production behavior. |
-| [DependencyInjection.Lifetime.Analyzers](https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers) | Dependency injection lifetimes | Detects captive dependencies, unsafe scopes, and lifetime mismatches that usually fail late. |
-| [CancelCop.Analyzer](https://github.com/georgepwall1991/CancelCop.Analyzer) | CancellationToken discipline | Keeps cancellation flowing through public APIs, handlers, EF Core, HTTP calls, and Minimal APIs. |
-| [automapper-analyser](https://github.com/georgepwall1991/automapper-analyser) | Mapping safety | Moves AutoMapper configuration failures from runtime surprises into compile-time feedback. |
+
+### Developer Utilities
+
+| Project | Focus | Why it matters |
+| --- | --- | --- |
 | [CPMigrate](https://github.com/georgepwall1991/CPMigrate) | Package management | Helps .NET solutions move to Central Package Management with dependency health checks and rollback. |
+
+### Desktop Apps
+
+| Project | Focus | Why it matters |
+| --- | --- | --- |
 | [AOEOverlay](https://github.com/georgepwall1991/AOEOverlay) | Tauri desktop overlay | A TypeScript/React/Tauri app that shows I also build polished local desktop tooling, not just compiler analyzers. |
 
 ## Toolbox

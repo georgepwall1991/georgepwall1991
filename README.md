@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="assets/profile-hero.svg" alt="George Wall - production-safety tooling for .NET teams" width="100%" />
+  <a href="https://www.georgewall.uk"><img src="assets/profile-hero.svg" alt="George Wall - production-safety tooling for .NET teams" width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.georgewall.uk">Portfolio</a> ·
+  <a href="https://www.nuget.org/profiles/GeorgeWall1991">NuGet · 142K+ downloads</a>
 </p>
 
 <p align="center">
@@ -12,13 +17,13 @@
 
 ## Signal
 
-I build production-safety tooling for .NET teams: Roslyn analyzers, developer workflows, and focused utilities that catch expensive mistakes before they ship.
+I build production-safety tooling for .NET teams: Roslyn analysers, developer workflows, and focused utilities that catch expensive mistakes before they ship.
 
 The thread running through my work is simple: make the failure visible while the developer is still in the editor, keep the diagnostic precise enough to trust, and ship the fix with tests, docs, and release automation.
 
 ## Featured Systems
 
-### Analyzers and Safety Tooling
+### Analysers and Safety Tooling
 
 | Project | Focus | Why it matters |
 | --- | --- | --- |
@@ -27,7 +32,7 @@ The thread running through my work is simple: make the failure visible while the
 | [ConfigContraband](https://github.com/georgepwall1991/ConfigContraband) | Configuration correctness | Catches broken `appsettings`, missing sections, duplicate JSON members, and option-shape drift before runtime. |
 | [DependencyInjection.Lifetime.Analyzers](https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers) | Dependency injection lifetimes | Detects captive dependencies, unsafe scopes, and lifetime mismatches that usually fail late. |
 | [HttpClient.Resilience.Analyzers](https://github.com/georgepwall1991/HttpClient.Resilience.Analyzers) | Outbound HTTP resilience | Flags unsafe `HttpClient` usage and resilience gaps before transient failures become production incidents. |
-| [LinqContraband](https://github.com/georgepwall1991/LinqContraband) | EF Core and LINQ safety | Flags query shapes that cause client-side evaluation, N+1s, cartesian explosions, and costly production behavior. |
+| [LinqContraband](https://github.com/georgepwall1991/LinqContraband) | EF Core and LINQ safety | Flags query shapes that cause client-side evaluation, N+1s, cartesian explosions, and costly production behaviour. |
 
 ### Developer Utilities
 
@@ -39,7 +44,7 @@ The thread running through my work is simple: make the failure visible while the
 
 | Project | Focus | Why it matters |
 | --- | --- | --- |
-| [AOEOverlay](https://github.com/georgepwall1991/AOEOverlay) | Tauri desktop overlay | A TypeScript/React/Tauri app that shows I also build polished local desktop tooling, not just compiler analyzers. |
+| [AOEOverlay](https://github.com/georgepwall1991/AOEOverlay) | Tauri desktop overlay | A TypeScript/React/Tauri app that shows I also build polished local desktop tooling, not just compiler analysers. |
 
 ## Toolbox
 
@@ -59,7 +64,7 @@ The thread running through my work is simple: make the failure visible while the
 
 ## Current Bias
 
-- High-signal analyzers over noisy rule volume.
+- High-signal analysers over noisy rule volume.
 - Runtime failures converted into compile-time feedback.
 - Developer-facing diagnostics that explain the fix, not just the failure.
 - Small packages that are documented, tested, versioned, and releasable.

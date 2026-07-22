@@ -1,6 +1,6 @@
 <svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">George Wall profile banner</title>
-  <desc id="desc">A dark technical banner for .NET analyzer and production safety tooling work.</desc>
+  <desc id="desc">A dark technical banner for .NET analyser and production safety tooling work.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#071014"/>
@@ -43,7 +43,7 @@
     <text x="34" y="22" fill="#B7F7CD" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">PRODUCTION SAFETY</text>
 
     <text x="0" y="112" fill="#F8FAFC" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="70" font-weight="800">George Wall</text>
-    <text x="2" y="156" fill="#A8B3C2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">Roslyn analyzers, developer tooling, and systems that catch</text>
+    <text x="2" y="156" fill="#A8B3C2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">Roslyn analysers, developer tooling, and systems that catch</text>
     <text x="2" y="188" fill="#A8B3C2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">expensive .NET mistakes before they reach production.</text>
 
     <g transform="translate(0 236)">
@@ -71,7 +71,7 @@
     <circle cx="28" cy="24" r="6" fill="#F87171"/>
     <circle cx="50" cy="24" r="6" fill="#FBBF24"/>
     <circle cx="72" cy="24" r="6" fill="#4ADE80"/>
-    <text x="98" y="30" fill="#97A6BA" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13">analyzer-pipeline</text>
+    <text x="98" y="30" fill="#97A6BA" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13">analyser-pipeline</text>
 
     <g transform="translate(30 82)">
       <rect x="0" y="0" width="190" height="50" rx="12" fill="#0E1721" stroke="#2E3B4C"/>

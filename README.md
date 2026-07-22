@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/georgepwall1991/ConfigContraband"><img alt="ConfigContraband" src="https://img.shields.io/badge/ConfigContraband-configuration%20safety-22c55e?style=for-the-badge"></a>
+  <a href="https://github.com/georgepwall1991/HttpClient.Resilience.Analyzers"><img alt="HttpClient Resilience Analyzers" src="https://img.shields.io/badge/HttpClient-resilience%20safety-ef4444?style=for-the-badge"></a>
   <a href="https://github.com/georgepwall1991/LinqContraband"><img alt="LinqContraband" src="https://img.shields.io/badge/LinqContraband-query%20safety-38bdf8?style=for-the-badge"></a>
   <a href="https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers"><img alt="DI analyzers" src="https://img.shields.io/badge/DI%20Analyzers-lifetime%20safety-f59e0b?style=for-the-badge"></a>
   <a href="https://github.com/georgepwall1991/AOEOverlay"><img alt="AOEOverlay" src="https://img.shields.io/badge/AOEOverlay-Tauri%20desktop-8b5cf6?style=for-the-badge"></a>
@@ -20,6 +21,7 @@ The thread running through my work is simple: make the failure visible while the
 | Project | Focus | Why it matters |
 | --- | --- | --- |
 | [ConfigContraband](https://github.com/georgepwall1991/ConfigContraband) | Configuration correctness | Catches broken `appsettings`, missing sections, duplicate JSON members, and option-shape drift before runtime. |
+| [HttpClient.Resilience.Analyzers](https://github.com/georgepwall1991/HttpClient.Resilience.Analyzers) | Outbound HTTP resilience | Flags unsafe `HttpClient` usage and resilience gaps before transient failures become production incidents. |
 | [LinqContraband](https://github.com/georgepwall1991/LinqContraband) | EF Core and LINQ safety | Flags query shapes that cause client-side evaluation, N+1s, cartesian explosions, and costly production behavior. |
 | [DependencyInjection.Lifetime.Analyzers](https://github.com/georgepwall1991/DependencyInjection.Lifetime.Analyzers) | Dependency injection lifetimes | Detects captive dependencies, unsafe scopes, and lifetime mismatches that usually fail late. |
 | [CancelCop.Analyzer](https://github.com/georgepwall1991/CancelCop.Analyzer) | CancellationToken discipline | Keeps cancellation flowing through public APIs, handlers, EF Core, HTTP calls, and Minimal APIs. |
